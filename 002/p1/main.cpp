@@ -15,7 +15,6 @@ int main(int argc, char** argv){
     in.open(argv[1], ios::in);
     int n;
     char line[255];
-    in >> noskipws;
     while(in.getline(line, 255)){
         istringstream iss(line);
 
